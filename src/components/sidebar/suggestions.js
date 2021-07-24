@@ -6,7 +6,6 @@ import SuggestedProfile from './suggestedprofile';
 
 export default function Suggestions({ userId, following, loggedInUserDocId }) {
   const [profiles, setProfiles] = useState(null);
-  console.log('loggedInUserDocId', loggedInUserDocId);
   useEffect(() => {
     async function suggestedProfiles() {
       const response = await getSuggestedProfiles(userId, following);
