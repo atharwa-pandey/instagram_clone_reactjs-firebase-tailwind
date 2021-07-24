@@ -23,7 +23,7 @@ export default function Profile({ user }) {
     if (user.username) {
       getProfileInfoAndPhotos();
     }
-  }, [user.username]);
+  }, [user]);
 
   return (
     <>
