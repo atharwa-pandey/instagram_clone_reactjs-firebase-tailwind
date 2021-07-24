@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import useUser from '../../hooks/use-user';
 import User from './user';
 import Suggestions from './suggestions';
 import LoggedInUserContext from '../../context/logged-in-user';
